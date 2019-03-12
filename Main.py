@@ -23,7 +23,8 @@ def menu():
         choice = int(input("Choice:"))
     except TypeError:
         choice = 0
-        
+    
+    startDone = False
     while startDone == False:
         if choice == 1: # Start Game
             startDone == True
