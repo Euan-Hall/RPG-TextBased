@@ -30,16 +30,18 @@ def menu():
             startDone == True
             os.cls()
             start()
+            break
             
         elif choice == 2: # Chose Help menu.
             os.cls()
             gameHelp()
+            break
             
         elif choice == 3: # Exit the game.
             exit()
 
         else: # Continue the loop if statement not met.
-            continue
+            pass
         
 
 menu()
